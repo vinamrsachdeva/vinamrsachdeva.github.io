@@ -7,13 +7,13 @@ layout: page
 
 *Sept 2020 - Present*
 
-This robot can carry objects to desired locations and drop them at desired slots while being guided by coloured strips on the ground and avoiding objects in its course. It is being designed and developed solely with hardware.
+It can carry objects to desired locations and drop them at desired slots while being guided by coloured strips on the ground and avoiding objects in its course. It is being designed and developed solely with hardware.
 
 [Project Description](https://wiki.illinois.edu/wiki/display/ECE110HLSF15/Industrial+Material+Handler)
 
 ## Analog Light Seeking Car
 
-It can navigated by moving a torchlight in the direction you want it to move. If the torchlight is directly above it and stationary it will stop. You can imagine this behaviour with, say, a planetary rover that must seek sunlight for recharging. I did not use any micro-controller, but only passive components and a 9V battery. I made it for the ECE 110 course I took at UIUC.
+It can be navigated by moving a torchlight in the direction you want it to move. If the torchlight is directly above it and stationary it will stop. You can imagine this behaviour with, say, a planetary rover that must seek sunlight for recharging. I did not use any micro-controller, but only passive components and a 9V battery. I made it for the ECE 110 course I took at UIUC.
 
 [Video](https://youtu.be/aBbki4NuOdQ)
 
@@ -21,7 +21,7 @@ It can navigated by moving a torchlight in the direction you want it to move. If
 
 *Jul 2017 – Dec 2019*
 
-A robot which can follow any path described on a surface by differentiating the path from the surface on the basis of the radiant power of the light reflected from it. Initially, I was using a primitive case by case approach to program the robot. Currently, I am testing it on a Proportional-Integral-Derivative, or PID, algorithm to control the movement of the robot on the basis of a feedback control loop.
+It can follow any path described on a surface by differentiating the path from the surface on the basis of the radiant power of the light reflected from it. Initially, I was using a primitive case by case approach to program the robot. Currently, I am testing it on a Proportional-Integral-Derivative, or PID, algorithm to control the movement of the robot on the basis of a feedback control loop.
 
 [Repo](https://github.com/vinamrsachdeva/PID-Line-Follower)
 
