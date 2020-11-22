@@ -42,3 +42,5 @@ Other Creators: Anirudh Chauhan, Naman Dhingra, Om Gupta, Shiv Sethi
 A system to reduce particulate matter and carbon dioxide in the air. The system consists of airborne helium balloons with particulate matter filters and a reaction chamber for converting collected carbon dioxide to carbonic acid, ground-based stations to aid the balloons (for refiling, recharging and maintenance) and a central station for monitoring of the entire system. 
 
 [Abstract](https://vinamrsachdeva.github.io/aironoy.pdf)
+
+Other Creators: Aryaman Arora, Bhavya Khandelwal, Om Gupta, Siddharth Gupta
