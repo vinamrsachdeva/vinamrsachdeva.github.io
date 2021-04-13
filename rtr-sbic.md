@@ -14,4 +14,4 @@
 
 <hr> 
 
-<i>I have written this draft on the basis of the draft written by Mr. Rahul Mehta in secction 9.3 of [301.pdf](https://www.rahulmehta.com/301.pdf), if he asks me to remove this wholly, or partly, I will do that.</i>
+<i>I have written this draft on the basis of the draft written by Mr. Rahul Mehta in section 9.3 of [301.pdf](https://www.rahulmehta.com/301.pdf) for Right to Recall RBI Governor, if he asks me to remove this wholly, or partly, I will do that.</i>
