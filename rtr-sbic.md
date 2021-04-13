@@ -11,7 +11,14 @@
 | 7. | Prime Minister              | If a candidate gets approval of over 51% of all voters, not just those who have filed their approval but all, then the Prime Minister may expel the existing chairman of SBI and may appoint the person with the highest approval count as the chairman of SBI. The decision of the Prime Minister shall be final.                                                                                                                                                                                               |
 | 8. | District Collector          | If any voter wants a change in this law, he may submit an affidavit, at the office of the District Collector. The District Collector or his clerk shall post the affidavit on the website of the Prime Minister for a fee of Rs. 20 per page.                                                                                                                                                                                                                                                                    |
 | 9. | Talati                      | If any voter appears in person before the Talati, along with his Voter Identification card, to register his “Yes” or “No” to any affidavit submitted under clause-8, or to this law wholly, or for particular clauses and pays a fee of Rs. 3, then the Talati shall enter his preferences, publish them on the Prime Minister’s website, and provide him with a receipt with his Voter Identification Number, Date and Time at which his preferences were entered in the Talati’s computer and the preferences. |
+| 10. | Prime Minister | The Prime Minsiter may create a procedure for filling preferences under clause 3 and 9 through a website, a mobile application or desktop software, or any of these, or all.|
 
-<hr> 
+<hr>
+
+| [History](https://github.com/vinamrsachdeva/vinamrsachdeva.github.io/commits/main/rtr-sbic.md) of this draft: | version 2 (current version): added clause 10. |
+| --- | --- |
+| | [version 1](https://github.com/vinamrsachdeva/vinamrsachdeva.github.io/commit/48cde578773f6d8ee85a7972b0c519a83575d747#diff-0b29d1eaf13d319b3fc36abc57abd75533c8a93e9ded8828cd10580a272e1a6e) |
+
+<hr>
 
 <i>I have written this draft on the basis of the draft written by Mr. Rahul Mehta in section 9.3 of [301.pdf](https://www.rahulmehta.com/301.pdf) for Right to Recall RBI Governor, if he asks me to remove this wholly, or partly, I will do that.</i>
