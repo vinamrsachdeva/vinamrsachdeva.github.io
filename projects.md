@@ -3,6 +3,16 @@ title: About
 layout: page
 ---
 
+## Assistive Device for the Visually Challenged
+
+*March 2021 - April 2021*
+
+This device allow the visually challenged to walk independently. It consists of eyeglass retrofitted with ultrasonic sensors and a control module, using which it detects obstacles around th euser and creates spatial awareness by notifying them about their location through audio means. 
+
+[Video](https://youtu.be/0D5RsoJMwgM) | [Wiki](https://wiki.illinois.edu/wiki/display/ECE110HLSF15/Smart+Glasses+for+the+Blind)
+
+Other Creators: Ahmed Nahas, Amaan, Ayush Sharma, John Burns, YouYou Yu
+
 ## Industrial Material Handler
 
 *Sept 2020 - Present*
