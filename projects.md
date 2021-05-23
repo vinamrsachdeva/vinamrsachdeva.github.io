@@ -29,9 +29,10 @@ It can be navigated by moving a torchlight in the direction you want it to move.
 
 ## Autonomous Line Follower Robot
 
-*Jul 2017 – Dec 2019*
+*Jul 2018 - Aug 2018*
 
-It can follow any path described on a surface by differentiating the path from the surface on the basis of the radiant power of the light reflected from it. Initially, I was using a primitive case by case approach to program the robot. Currently, I am testing it on a Proportional-Integral-Derivative, or PID, algorithm to control the movement of the robot on the basis of a feedback control loop.
+
+A robot which can follow any path described on a surface by differentiating the path from the surface on the basis of the radiant power of the light reflected from it. Initially, I was using a primitive case by case approach to program the robot. Later, I developed it on a Proportional-Integral-Derivative, or PID, algorithm to control its movement.
 
 [Repo](https://github.com/vinamrsachdeva/PID-Line-Follower)
 
