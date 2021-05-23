@@ -4,7 +4,7 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-I am currently a freshman at [University of Illinois at Urbana-Chmapaign](https://illinois.edu/) where I'm majoring in Electrical Engineering. 
+I am currently a rising sophmore at [University of Illinois at Urbana-Chmapaign](https://illinois.edu/) where I'm majoring in Electrical Engineering. 
 
 I graduated from [Delhi Public School, RK Puram](https://dpsrkp.net), New Delhi, in 2020. There, I was the President of [Aerospace Society](https://aeross.org) and a member of [Roboknights](https://www.facebook.com/roboknightsdps/). 
 
