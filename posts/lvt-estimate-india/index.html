@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Vinamr Sachdeva">
+<meta name="dcterms.date" content="2024-01-08">
+
+<title>Vinamr Sachdeva - Estimating how much can a land value tax raise in India (an interim estimate)</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Vinamr Sachdeva</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html" rel="" target="">
+ <span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/vinamrsachdeva" rel="" target=""><i class="bi bi-github" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/vinamrsachdeva" rel="" target=""><i class="bi bi-twitter" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://old.reddit.com/u/vinamrsachdeva" rel="" target=""><i class="bi bi-reddit" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="mailto:vinamrsachdeva@gmail.com" rel="" target=""><i class="bi bi-envelope" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Estimating how much can a land value tax raise in India (an interim estimate)</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">georgism</div>
+                <div class="quarto-category">land</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Vinamr Sachdeva </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">January 8, 2024</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#what-to-expect-from-this-estimate" id="toc-what-to-expect-from-this-estimate" class="nav-link active" data-scroll-target="#what-to-expect-from-this-estimate"><span class="header-section-number">1</span> What to expect from this estimate</a></li>
+  <li><a href="#urban-land" id="toc-urban-land" class="nav-link" data-scroll-target="#urban-land"><span class="header-section-number">2</span> Urban land</a>
+  <ul class="collapse">
+  <li><a href="#a-brief-overview-of-my-prior-failed-efforts" id="toc-a-brief-overview-of-my-prior-failed-efforts" class="nav-link" data-scroll-target="#a-brief-overview-of-my-prior-failed-efforts"><span class="header-section-number">2.1</span> A brief overview of my prior failed efforts</a></li>
+  <li><a href="#lower-bound-urban-land-value-estimate" id="toc-lower-bound-urban-land-value-estimate" class="nav-link" data-scroll-target="#lower-bound-urban-land-value-estimate"><span class="header-section-number">2.2</span> Lower-bound urban land-value estimate</a></li>
+  <li><a href="#making-sense-of-the-urban-land-value-estimate" id="toc-making-sense-of-the-urban-land-value-estimate" class="nav-link" data-scroll-target="#making-sense-of-the-urban-land-value-estimate"><span class="header-section-number">2.3</span> Making sense of the urban land value estimate</a></li>
+  <li><a href="#reasonable-estimate-for-tax-rates" id="toc-reasonable-estimate-for-tax-rates" class="nav-link" data-scroll-target="#reasonable-estimate-for-tax-rates"><span class="header-section-number">2.4</span> Reasonable estimate for tax rates</a></li>
+  <li><a href="#urban-lvt-revenue-estimate" id="toc-urban-lvt-revenue-estimate" class="nav-link" data-scroll-target="#urban-lvt-revenue-estimate"><span class="header-section-number">2.5</span> Urban LVT revenue estimate</a></li>
+  </ul></li>
+  <li><a href="#natural-resources" id="toc-natural-resources" class="nav-link" data-scroll-target="#natural-resources"><span class="header-section-number">3</span> Natural resources</a>
+  <ul class="collapse">
+  <li><a href="#natural-resource-rents" id="toc-natural-resource-rents" class="nav-link" data-scroll-target="#natural-resource-rents"><span class="header-section-number">3.1</span> Natural resource rents</a></li>
+  <li><a href="#natural-resource-capital" id="toc-natural-resource-capital" class="nav-link" data-scroll-target="#natural-resource-capital"><span class="header-section-number">3.2</span> Natural resource capital</a></li>
+  </ul></li>
+  <li><a href="#agricultural-land" id="toc-agricultural-land" class="nav-link" data-scroll-target="#agricultural-land"><span class="header-section-number">4</span> Agricultural land</a></li>
+  <li><a href="#total-lvt-revenue" id="toc-total-lvt-revenue" class="nav-link" data-scroll-target="#total-lvt-revenue"><span class="header-section-number">5</span> Total LVT revenue</a></li>
+  <li><a href="#potential" id="toc-potential" class="nav-link" data-scroll-target="#potential"><span class="header-section-number">6</span> Potential</a>
+  <ul class="collapse">
+  <li><a href="#replacing-existing-taxes" id="toc-replacing-existing-taxes" class="nav-link" data-scroll-target="#replacing-existing-taxes"><span class="header-section-number">6.1</span> Replacing existing taxes</a></li>
+  <li><a href="#boosting-government-revenue-or-eliminating-the-deficit" id="toc-boosting-government-revenue-or-eliminating-the-deficit" class="nav-link" data-scroll-target="#boosting-government-revenue-or-eliminating-the-deficit"><span class="header-section-number">6.2</span> Boosting government revenue or eliminating the deficit</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+<p>Estimating how much a country’s land is worth (and the capitalization rates) is important to know how much revenue can a <a href="https://en.wikipedia.org/wiki/Land_value_tax">Land Value Tax (LVT)</a> raise. Many have tried to arrive at estimates for the <a href="https://www.gameofrent.com/content/is-land-a-big-deal">US</a>, <a href="https://www.commonwealth.ca/report">Canada</a> and <a href="https://www.prosper.org.au/wp-content/uploads/2018/04/TrickleUp22.pdf">Australia</a>. I haven’t seen any estimate for India. In this post, I’m going to provide an (interim; because of lack of data and the free time that I have) estimate for how much tax can be raised from land for India.</p>
+<section id="what-to-expect-from-this-estimate" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="what-to-expect-from-this-estimate"><span class="header-section-number">1</span> What to expect from this estimate</h2>
+<ul>
+<li><p>The aim of this post is to not arrive at the “state of the art” or the most accurate estimate for how much we can raise by levying an LVT in India but just a ballpark that can be used to inform the aims of LVT advocates and to know if it’s even worth to look at from a “revenue-raising point of view.”</p></li>
+<li><p>This obviously doesn’t take into account the dynamic effects of levying an LVT, i.e.&nbsp;it doesn’t account the change in how much revenue an LVT can raise if land value change after the introduction of the tax.</p></li>
+</ul>
+</section>
+<section id="urban-land" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="urban-land"><span class="header-section-number">2</span> Urban land</h2>
+<p>Due to lack of easily “usable” data from the government and the free time that I have, I’ll be calculating land values for Delhi and then use the same, in terms of its ratio to GDP, for the entire India. This means that if Delhi’s land value is 2 times Delhi’s GSDP, I’ll assume India’s urban land value to be 2 times India’s GDP. I know this is not the best way to do this but that’s the best I can do at the moment. I’ll try to arrive at better estimates in the future.</p>
+<section id="a-brief-overview-of-my-prior-failed-efforts" class="level3" data-number="2.1">
+<h3 data-number="2.1" class="anchored" data-anchor-id="a-brief-overview-of-my-prior-failed-efforts"><span class="header-section-number">2.1</span> A brief overview of my prior failed efforts</h3>
+<p><a href="https://github.com/vinamrsachdeva/delhi-valuation">This GitHub repository</a> contains code that I wrote to find the “circle rate value of Delhi.” Circle rate is the assessed value published by the municipal government for a particular neighborhood and they’re known to be [gross underestimates]((https://www.thehindubusinessline.com/opinion/the-official-price-of-land-is-a-joke/article64592464.ece). There are just 8 circle rate categories for the entire Delhi and each neighborhood falls in one of those 8. It looks up the addresses of all properties within the perimeter of Delhi filtered from Google’s <a href="https://sites.research.google/open-buildings">OpenBuildings dataset</a> by requesting a human-readable address from OpenStreetMap’s <a href="https://nominatim.org/">Nominatim API</a>’s reverse geocoding address look-up feature and drops any addresses that are not in Delhi. Then, it matches the address to a circle rate category and multiples the circle rate with the land area. I was thinking of adjusting each property for maximum ground coverage requirements of the government to figure out an the land area (since OpenBuildings only provides the building footprint area) but I didn’t because it’s not able to do the address - circle rate category matching. The address returned by OpenStreetMap’s Nominatim API may not correspond to the ones in the <a href="https://github.com/vinamrsachdeva/delhi-valuation/blob/main/circle-rate.csv">circle rate category list</a>. Ideally, the municipal government should have released Shapefiles for circle rate categories like city governments in the West do for tax assessor data, parcel data, zoning data, property sale transaction data etc. I haven’t been able to find any. I’d not be surprised if circle rate disputes between tax filers and the tax department were being resolved using non-digitized maps. I’ll probably file an RTI to get those maps soon but before we have those, I’ll just use the lowest circle rate category and calculate it for all of Delhi’s land.</p>
+</section>
+<section id="lower-bound-urban-land-value-estimate" class="level3" data-number="2.2">
+<h3 data-number="2.2" class="anchored" data-anchor-id="lower-bound-urban-land-value-estimate"><span class="header-section-number">2.2</span> Lower-bound urban land-value estimate</h3>
+<p>I’m going to provide an <em>extremely rough lower-bound</em> estimate for the total value of Delhi’s land that is being used for residential, commercial and industrial purposes. And then use some rough estimates for the net operating income to estimate the total land rent that can be taxed.</p>
+<p>Delhi’s “<a href="https://dda.gov.in/sites/default/files/planning%20files/Master_Plan_for_Delhi_2021_%28Incorporating_modifications_upto_31.08.2022%29.pdf">Master Plan for 2021</a>”, that was prepared in 2007, provides the following figures for land-use distribution.</p>
+<blockquote class="blockquote">
+<p>Table 3.2: Land use Distribution</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Land use</th>
+<th>% of Land</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Residential</td>
+<td>45-55</td>
+</tr>
+<tr class="even">
+<td>Commercial</td>
+<td>4-5</td>
+</tr>
+<tr class="odd">
+<td>Industrial</td>
+<td>4-5</td>
+</tr>
+<tr class="even">
+<td>Green/ Recreational*</td>
+<td>15-20</td>
+</tr>
+<tr class="odd">
+<td>Public &amp; Semi-Public Facilities</td>
+<td>8-10</td>
+</tr>
+<tr class="even">
+<td>Circulation</td>
+<td>10-12</td>
+</tr>
+</tbody>
+</table>
+<p>* This does not include green areas within the various gross land use categories.</p>
+<p>On an average the space required per person would be 40 sqm, covering about 920 sqkm of urban area for the projected population of 230 lakh in year 2021.</p>
+</blockquote>
+<p>The lower values for residential, commercial and industrial add up to 53%. 53% of 920 square kilometers (of projected area for use) is 487.6 square kilometers.</p>
+<p>For land value per unit area, we’ll take the <em>lowest</em> circle-rate area category.</p>
+<table class="table">
+<colgroup>
+<col style="width: 8%">
+<col style="width: 18%">
+<col style="width: 36%">
+<col style="width: 36%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Category</th>
+<th>Land cost (per sqm)</th>
+<th>Construction cost: Residential (per sqm)</th>
+<th>Construction cost: Commercial (per sqm)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>A</td>
+<td>Rs 7.74 lakh</td>
+<td>Rs 21,960</td>
+<td>Rs 25,200</td>
+</tr>
+<tr class="even">
+<td>B</td>
+<td>Rs 2.46 lakh</td>
+<td>Rs 17,400</td>
+<td>Rs 19,920</td>
+</tr>
+<tr class="odd">
+<td>C</td>
+<td>Rs 1.6 lakh</td>
+<td>Rs 13,920</td>
+<td>Rs 15,960</td>
+</tr>
+<tr class="even">
+<td>D</td>
+<td>Rs 1.28 lakh</td>
+<td>Rs 11,160</td>
+<td>Rs 12,840</td>
+</tr>
+<tr class="odd">
+<td>E</td>
+<td>Rs 70,080</td>
+<td>Rs 9,360</td>
+<td>Rs 10,800</td>
+</tr>
+<tr class="even">
+<td>F</td>
+<td>Rs 56,640</td>
+<td>Rs 8,220</td>
+<td>Rs 9,480</td>
+</tr>
+<tr class="odd">
+<td>G</td>
+<td>Rs 46,200</td>
+<td>Rs 6,960</td>
+<td>Rs 8,040</td>
+</tr>
+<tr class="even">
+<td><strong>H</strong></td>
+<td><strong>Rs 23,280</strong></td>
+<td><strong>Rs 3,480</strong></td>
+<td><strong>Rs 3,960</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Note that (as I said before) circle rates are themselves a joke (from my personal conversations with property brokers, they’re 2-3 times lower than market rates currently in my area) and I’m taking the lowest out of them for all, which is more than 30 times smaller than the highest.</p>
+<p>Assuming a land value of Rs. 23,280 per square meter and an area of 487.6 square kilometers, we get to about Rs. 11.3 trillion (lakh crores).</p>
+</section>
+<section id="making-sense-of-the-urban-land-value-estimate" class="level3" data-number="2.3">
+<h3 data-number="2.3" class="anchored" data-anchor-id="making-sense-of-the-urban-land-value-estimate"><span class="header-section-number">2.3</span> Making sense of the urban land value estimate</h3>
+<p>Delhi’s GSDP for FY23 was about <a href="https://prsindia.org/budgets/states/delhi-budget-analysis-2023-24">Rs. 10.4 lakh crores</a>. And our lower bound estimate for its land-value is about that, i.e.&nbsp;1x GSDP. For a comparison, this is what land values look for the countries studied by McKinsey in its “<a href="https://www.mckinsey.com/industries/financial-services/our-insights/the-rise-and-rise-of-the-global-balance-sheet-how-productively-are-we-using-our-wealth">The rise and rise of the global balance sheet</a>”:</p>
+<p><img src="land-values-mckinsey.png" class="img-fluid"></p>
+<p>For their methodology/source, they say that land is “[m]ost often calculated as latest price paid by a new owner, less the value of any structures on the land.” This means that they not take into account the price appreciation for land that is not sold recently, so they’re likely to be underestimates too but still, it doesn’t show that our estimate is way off.</p>
+</section>
+<section id="reasonable-estimate-for-tax-rates" class="level3" data-number="2.4">
+<h3 data-number="2.4" class="anchored" data-anchor-id="reasonable-estimate-for-tax-rates"><span class="header-section-number">2.4</span> Reasonable estimate for tax rates</h3>
+<p>The LVT rate can’t exceed the existing capitalization (cap) rates. I think it’s reasonable to assume a 2-3% cap rate for residential, 4-5% for industrial and 6-8% for commercial properties. Even though commercial and industrial land constitute a small percentage of the total land area, they’ll take a larger share of the land value pie. I think it’s reasonable to assume a weighted average cap rate of 4%.</p>
+<p>Note that practically, during implementation, the government might tax properties at different rates based on different cap rates based on land-use and area, ideally based on up-to-date market surveys but we’re just taking a reasonable cap rate that can be multiplied with total land value to arrive at an estimate for the land rent tax base.</p>
+</section>
+<section id="urban-lvt-revenue-estimate" class="level3" data-number="2.5">
+<h3 data-number="2.5" class="anchored" data-anchor-id="urban-lvt-revenue-estimate"><span class="header-section-number">2.5</span> Urban LVT revenue estimate</h3>
+<p>An 80% tax rate, to account for errors in land valuation, on land rents, i.e.&nbsp;an LVT of 80% of cap rate, would raise 80% x 4% x 1 x GDP, i.e.&nbsp;3.2% of GDP.</p>
+<p>Estimates for other countries range from 10-15% of GDP and I think we can also raise that much–it’s just that our land value estimate was such a gros underestimate that we’re getting a tax revenue estimate that is 3-5 times lower than theirs. To be at parity with them, we would just need a 2 times jump from the correct estimation of circle rate and a mere 2 times jump from not using the lowest circle rate for all land. I think that’s reasonable.</p>
+</section>
+</section>
+<section id="natural-resources" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="natural-resources"><span class="header-section-number">3</span> Natural resources</h2>
+<section id="natural-resource-rents" class="level3" data-number="3.1">
+<h3 data-number="3.1" class="anchored" data-anchor-id="natural-resource-rents"><span class="header-section-number">3.1</span> Natural resource rents</h3>
+<p>World Bank estimates for our total natural resource rents from coal, oil, natural gas, minerals, and forests:</p>
+<iframe src="https://data.worldbank.org/share/widget?indicators=NY.GDP.TOTL.RT.ZS&amp;locations=IN" width="600" height="400" frameborder="0" scrolling="no">
+</iframe>
+<p>Our natural resource rents are easily 2% of GDP in any given year (and since the recently auctioned <a href="https://vinamrsachdeva.github.io/posts/strange-mining-auctions/">abnormally highly valued (or misvalued? or indicative of illegal mining?) mines</a> would be exploited soon, we can expect them to be even higher. At an 80% tax rate, we can easily raise 1.6% of GDP.</p>
+</section>
+<section id="natural-resource-capital" class="level3" data-number="3.2">
+<h3 data-number="3.2" class="anchored" data-anchor-id="natural-resource-capital"><span class="header-section-number">3.2</span> Natural resource capital</h3>
+<p>If we find the <a href="https://en.wikipedia.org/wiki/Present_value">present value</a> of all future natural resource rents, we’ll get our natural resource capital.</p>
+<p>World Bank’s <a href="https://databank.worldbank.org/source/wealth-accounts/preview/on#">Wealth Accounts</a> provides figures for our natual resource capital for various categories in 2018 USD.</p>
+<table class="table">
+<colgroup>
+<col style="width: 23%">
+<col style="width: 13%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Natural resouce category</th>
+<th>Series Code</th>
+<th>2014 [YR2014]</th>
+<th>2015 [YR2015]</th>
+<th>2016 [YR2016]</th>
+<th>2017 [YR2017]</th>
+<th>2018 [YR2018]</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Fisheries</td>
+<td>NW.NCA.FISH.PC</td>
+<td>6.9425108</td>
+<td>6.81512602</td>
+<td>6.933280981</td>
+<td>7.273546543</td>
+<td>6.61710382</td>
+</tr>
+<tr class="even">
+<td>Forests (ecosystem services)</td>
+<td>NW.NCA.FECO.PC</td>
+<td>74.6465893</td>
+<td>75.05137937</td>
+<td>75.47389544</td>
+<td>76.62429828</td>
+<td>83.11028446</td>
+</tr>
+<tr class="odd">
+<td>Forests (timber)</td>
+<td>NW.NCA.FTIM.PC</td>
+<td>44.33886249</td>
+<td>44.65131445</td>
+<td>46.61686953</td>
+<td>46.36488601</td>
+<td>43.38496877</td>
+</tr>
+<tr class="even">
+<td>Fossil fuels</td>
+<td>NW.NCA.FOSL.PC</td>
+<td>711.2141754</td>
+<td>640.8952077</td>
+<td>546.5525911</td>
+<td>503.0511051</td>
+<td>516.1637922</td>
+</tr>
+<tr class="odd">
+<td>Mangroves</td>
+<td>NW.NCA.MANG.PC</td>
+<td>17.31830293</td>
+<td>17.98752845</td>
+<td>18.64474348</td>
+<td>19.29085943</td>
+<td>19.92626941</td>
+</tr>
+<tr class="even">
+<td>Non-renewable assets</td>
+<td>NW.NCA.SSOI.PC</td>
+<td>1012.045897</td>
+<td>872.1786605</td>
+<td>712.9535422</td>
+<td>675.4840335</td>
+<td>628.1452895</td>
+</tr>
+</tbody>
+</table>
+<p>Note that this includes fisheries (and mangroves?) which the natural resource rent estimate doesn’t include but anyways, they’re a small % of the total natural resource capital. At a 5% discount rate, I think all natural resource cash flows for the government (rent in this case) would be 5% of ~USD 1300 for 2018, i.e.&nbsp;USD 65 or ~4.4% of our GDP. World Bank’s natural resource rent estimate is 2.2% for the same year but these are very rough calculations, just to make sure that we have a ballpark for each.</p>
+</section>
+</section>
+<section id="agricultural-land" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="agricultural-land"><span class="header-section-number">4</span> Agricultural land</h2>
+<p>From the same World Bank’s Wealth Accounts:</p>
+<table class="table">
+<colgroup>
+<col style="width: 23%">
+<col style="width: 13%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 12%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Natural resouce category</th>
+<th>Series Code</th>
+<th>2014 [YR2014]</th>
+<th>2015 [YR2015]</th>
+<th>2016 [YR2016]</th>
+<th>2017 [YR2017]</th>
+<th>2018 [YR2018]</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Agricultural land</td>
+<td>NW.NCA.AGRI.PC</td>
+<td>1944.975206</td>
+<td>1989.494259</td>
+<td>2008.442762</td>
+<td>2050.304951</td>
+<td>2070.78457</td>
+</tr>
+<tr class="even">
+<td>Cropland</td>
+<td>NW.NCA.CROL.PC</td>
+<td>1385.16665</td>
+<td>1410.984384</td>
+<td>1407.681867</td>
+<td>1423.618352</td>
+<td>1412.149602</td>
+</tr>
+<tr class="odd">
+<td>Pastureland</td>
+<td>NW.NCA.PASL.PC</td>
+<td>559.8085562</td>
+<td>578.5098748</td>
+<td>600.7608951</td>
+<td>626.686599</td>
+<td>658.6349679</td>
+</tr>
+</tbody>
+</table>
+<p>World Bank’s estimate for total value of cropland and pastureland for 2018 was ~USD 2,900 per capita. This would make it twice of what our GDP was in 2018 (current prices USD).</p>
+<p>Note that it further confirms that the urban land value figure I provided is a gross underestimate. Even though agriculture is 15% of our GDP, it seems to contribute more to land values than urban land! That’s obviously not true and I think urban land values are much higher than the estimate I provided.</p>
+<p>For these reasons, I’ll assume only 50% of the agricultural land in terms of value is taxed (this will ensure that most farmers won’t be taxed), which brings it to 1 times GDP:</p>
+<ul>
+<li><p>It’s clearly visible from the data that agricultural land values are declining and as agriculture’s value added to our GDP decreases, the ratio of agricultural land value to our GDP would also decrease. (It’s likely down since 2018 as well.)</p></li>
+<li><p>Given that the Indian government shies away from <em>directly</em> taxing income from agriculture (even though they tax farmers heavily <a href="https://twitter.com/vinamrsachdeva/status/1696855444722180297">implicitly</a>), it’s unlikely that they’ll start taxing agricultural land directly. They should start by providing a standard deduction to all–that way, it can be electorally feasible.</p></li>
+</ul>
+<p>At an 80% tax rate and a 4% cap rate, it will be 3.2% of GDP.</p>
+</section>
+<section id="total-lvt-revenue" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="total-lvt-revenue"><span class="header-section-number">5</span> Total LVT revenue</h2>
+<p>Based on the assumptions above, here are the estimates for each land classification:</p>
+<table class="table">
+<colgroup>
+<col style="width: 12%">
+<col style="width: 17%">
+<col style="width: 7%">
+<col style="width: 16%">
+<col style="width: 20%">
+<col style="width: 14%">
+<col style="width: 11%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Taxable land</th>
+<th>Raw Base (as a % of GDP)</th>
+<th>Rate</th>
+<th>Revenue (as a % of GDP)</th>
+<th>Adjusted Base (as a % of GDP)</th>
+<th>Reason for adjustment</th>
+<th>Adjusted Revenue</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Urban land</td>
+<td>100%</td>
+<td>3.2%</td>
+<td>3.2%</td>
+<td>200%</td>
+<td>100% is a gross underestimate based on the methodology and also based on the agricultural land values</td>
+<td>6.4%</td>
+</tr>
+<tr class="even">
+<td>Natural resource rents</td>
+<td>2%</td>
+<td>80%</td>
+<td>1.6%</td>
+<td>1.6%</td>
+<td></td>
+<td>1.6%</td>
+</tr>
+<tr class="odd">
+<td>Agricultural land</td>
+<td>200%</td>
+<td>3.2%</td>
+<td>6.4%</td>
+<td>100%</td>
+<td>Maybe not electorally feasible to tax at a 100%, is likely down (as a % of GDP) since 2018 and will likely be even lower in the future</td>
+<td>3.2%</td>
+</tr>
+<tr class="even">
+<td><strong>Total</strong></td>
+<td><strong>302%</strong></td>
+<td></td>
+<td><strong>11.2%</strong></td>
+<td><strong>302%</strong></td>
+<td></td>
+<td><strong>11.2%</strong></td>
+</tr>
+</tbody>
+</table>
+<p>This is reasonably around the estimates I’ve come across for the US, Canada and Australia.</p>
+</section>
+<section id="potential" class="level2" data-number="6">
+<h2 data-number="6" class="anchored" data-anchor-id="potential"><span class="header-section-number">6</span> Potential</h2>
+<section id="replacing-existing-taxes" class="level3" data-number="6.1">
+<h3 data-number="6.1" class="anchored" data-anchor-id="replacing-existing-taxes"><span class="header-section-number">6.1</span> Replacing existing taxes</h3>
+<p>“Replacing existing taxes” can mean either reducing tax rates by that much or eliminating certain taxes altoghether while keeping others.</p>
+<p>India’s tax collections were <a href="https://timesofindia.indiatimes.com/blogs/toi-edit-page/tax-collections-cant-defy-economic-reality/">~17.7% of GDP in FY23</a>:</p>
+<blockquote class="blockquote">
+<p>Total tax receipts for financial year 2022-23 were ₹48.4 trillion, comprising central tax revenue of ₹30.4 trillion (based on revised estimates) and states’ own tax revenue of ₹18 trillion (based on budget estimates). With a nominal GDP of ₹273 trillion, India’s tax-GDP ratio is 17.7%.</p>
+</blockquote>
+<p>This means that an LVT can easily replace more than 50% of the existing taxes if we leave our natural resource rents (since we seem better at collecting them for legal mining and they’ll fall in the non-tax revenue for the government currently, i.e.&nbsp;outside the 17.7% figure). If we include natural resource rents, it can replace more than 60% of the existing taxes.</p>
+</section>
+<section id="boosting-government-revenue-or-eliminating-the-deficit" class="level3" data-number="6.2">
+<h3 data-number="6.2" class="anchored" data-anchor-id="boosting-government-revenue-or-eliminating-the-deficit"><span class="header-section-number">6.2</span> Boosting government revenue or eliminating the deficit</h3>
+<p>Alternatively, given that our government’s annual expenditure is <a href="https://www.imf.org/external/datamapper/exp@FPP/USA/FRA/JPN/GBR/SWE/%20ESP/ITA/ZAF/IND/TUR">~28% of GDP</a>, it can be used to either boost the government expenditure by more than a third of what it is currently, or completely elimite the deficit.</p>
+<script src="https://utteranc.es/client.js" repo="vinamrsachdeva/vinamrsachdeva.github.io" issue-term="pathname" label="comments" theme="github-light" crossorigin="anonymous" async="">
+</script>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
