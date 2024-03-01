@@ -2,22 +2,17 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/in-pol-2/index.html",
-      "/posts/corruption/index.html",
-      "/posts/school-vouchers/index.html",
       "/posts/household-lv-india/index.html",
       "/posts/misallocation-capital-due-to-land/index.html",
       "/posts/lvt-ballpark-india/index.html",
       "/posts/ag-lv-india/index.html",
       "/posts/strange-mining-auctions/index.html",
       "/posts/drug-patents/index.html",
-      "/posts/infant-industry/index.html",
       "/posts/mckinsey-land/index.html",
       "/posts/tech-import-dependencies/index.html",
       "/posts/natural-resource-rents/index.html",
       "/posts/publicly-verifiable-random-seed-generation/index.html",
       "/posts/guns-democracy/index.html",
-      "/posts/nuclear-deterrent/index.html",
       "/posts/history-sortition-india/index.html",
       "/posts/flying-coffins/index.html",
       "/posts/crude-middleman/index.html",
@@ -31,8 +26,7 @@
       "/posts/socrates/index.html",
       "/posts/extra-judicial-powers-of-judges/index.html",
       "/posts/mineral-reserves/index.html",
-      "/posts/surplus-public-land/index.html",
-      "/posts/hundred-pct-defeat/index.html"
+      "/posts/surplus-public-land/index.html"
     ]
   }
 ]
