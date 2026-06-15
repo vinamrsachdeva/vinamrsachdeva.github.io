@@ -72,6 +72,8 @@ h2 {
     width: 240px;
     height: 240px;
     border-radius: 120px;
+    object-fit: cover;
+    object-position: center 90%;
 }
 .iico {
     width: 40px;
