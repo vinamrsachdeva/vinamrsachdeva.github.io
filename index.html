@@ -84,21 +84,5 @@
 
     <!--<br><br><br><br><br><br><br><br><br><br><br>-->
     <br><br>
-
-    <!-- attempt hiding from spambots :p -->
-    <script type="text/javascript">
-      const rot13 = (message) => {
-        const alpha = 'abcdefghijklmnopqrstuvwxyzabcdefghijklmABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLM';
-        return message.replace(/[a-z]/gi, letter => alpha[alpha.indexOf(letter) + 13]);
-      }
-      var e_is_shown = false;
-      document.getElementById('iemail').addEventListener("click", function(){
-        let demail = document.getElementById('demail');
-        let msg = "naqerw.xnecngul" + "@" + "tznvy.pbz<oe>V'z fbeel ohg V trg jnl gbb zhpu rznvy naq vg vf birejuryzvat. V bayl znantr gb ercyl gb ~1% bs vg, naq vs jr qba'g xabj rnpu bgure crefbanyyl, vg vf n ybg pybfre gb 0%. Cyrnfr qba'g \"gnxr lbhe fubg\", naq fbeel :("
-        demail.innerHTML = rot13(msg);
-        demail.style.opacity = e_is_shown ? 0 : 1;
-        e_is_shown = !e_is_shown;
-      })
-    </script>
   </body>
 </html>
